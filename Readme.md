@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Алексей Медянцев](https://up.htmlacademy.ru/htmlcss/26/user/1123999).
-* Наставник: `Неизвестно`.
+* Наставник: [Денис Власов](https://htmlacademy.ru/profile/amaringo).
 
 ---
 
