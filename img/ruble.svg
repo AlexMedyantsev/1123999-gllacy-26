@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="31px" viewBox="0 0 26 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>ruble</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-30.6%" y="-25.6%" width="161.2%" height="151.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0.5" dy="0.9" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.192156863   0 0 0 0 0.196078431   0 0 0 0 0.207843137  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="ruble" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" fill="#FFFFFF" fill-rule="nonzero" id="Shape">
+            <path d="M9,19 L16.451,19 C21.698,19 25.951,14.747 25.951,9.5 C25.951,4.253 21.698,0 16.451,0 L4,0 L4,14 L0,14 L0,19 L4,19 L4,22 L0,22 L0,27 L4,27 L4,31 L9,31 L9,27 L24,27 L24,22 L9,22 L9,19 Z M9,5 L16.451,5 L16.451,4.97 C18.9528499,4.97 20.9809999,6.99815011 20.9809999,9.5 C20.9809999,12.0018499 18.9528499,14.03 16.451,14.03 L16.451,14 L9,14 L9,5 Z"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>loupe</title>
+    <desc>Created with Sketch.</desc>
+    <g id="loupe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#FFFFFF" fill-rule="nonzero" id="Shape">
+            <path d="M16.958,15.527 L11.75,10.32 C12.5625824,9.21214288 13.0004848,7.87391313 13,6.5 C13,2.91014913 10.0898509,0 6.5,0 C2.91014913,0 -7.21644966e-16,2.91014913 -7.21644966e-16,6.5 C-7.21644966e-16,10.0898509 2.91014913,13 6.5,13 C7.8817553,13.0000696 9.2271839,12.5574344 10.339,11.737 L15.544,16.941 L16.958,15.527 Z M6.5,11 C4.019,11 2,8.981 2,6.5 C2,4.019 4.019,2 6.5,2 C8.981,2 11,4.019 11,6.5 C11,8.981 8.981,11 6.5,11 Z"></path>
+        </g>
+    </g>
+</svg>
