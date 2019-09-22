@@ -24,15 +24,18 @@ a:visited {
   color: #323232;
 }
 
-.footer__links a:hover {
+.footer__links a:hover,
+.copyright__text a:hover {
   color: #ffbc9e;
   cursor: pointer;
 }
 
+.login__form a:hover,
 .blog__link:hover {
   color: #e84d37;
   cursor: pointer;
 }
+
 
 .header__nav__list,
 .catalog__dropdown__list,
@@ -64,6 +67,12 @@ a:visited {
 .header__buttons__container {
   font-weight: 500;
   font-size: 14px;
+}
+
+.login__links{
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1.85;
 }
 
 .work__time {
