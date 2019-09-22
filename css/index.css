@@ -40,12 +40,12 @@ a:visited {
 .header__nav__list,
 .catalog__dropdown__list,
 .catalog__items__list,
+.sub__navigation,
 .about__list,
 .social__buttons__list,
 .footer__links__list {
   list-style: none;
 }
-
 .main-navigation {
   line-height: 18px;
 }
@@ -75,6 +75,16 @@ a:visited {
   line-height: 1.85;
 }
 
+.header__cart__pop-up td {
+  font-size: 13px;
+  color: #323232;
+  font-weight: normal;
+}
+
+.cart__price {
+  color: #999999;
+}
+
 .work__time {
   line-height: 1.14;
 }
@@ -94,6 +104,25 @@ a:visited {
 .about__list {
   font-weight: normal;
   color: #323232;
+}
+
+.sub__navigation a {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1.14;
+}
+
+.catalog__item__name {
+  font-weight: 500;
+}
+
+.catalog__item__price {
+  font-size: 45px;
+  line-height: 1;
+}
+
+.kilogram {
+  font-size: 30px;
 }
 
 .blog__header {
