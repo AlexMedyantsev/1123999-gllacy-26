@@ -6,7 +6,6 @@
   <title>Глэйси</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/index.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -18,7 +17,7 @@
       <nav class="main-navigation">
         <ul class="header__nav__list">
           <li class="header__nav__list__item"><a href="catalog.html">Каталог</a>
-            <ul class="catalog__dropdown__list">
+            <ul class="catalog__dropdown__list visually-hidden">
               <li class="catalog__dropdown__item"><a href="#">Новинки</a></li>
               <li class="catalog__dropdown__item"><a href="#">Сливочное</a></li>
               <li class="catalog__dropdown__item"><a href="#">Щербеты</a></li>
@@ -33,14 +32,14 @@
     </div>
     <div class="header__buttons__container">
       <button class="header__buttons__search">
-        <div class="search__field__container">
+        <div class="search__field__container visually-hidden">
           <form method="get" action="#">
-            <input type="text" placeholder="Что ищем?" aria-label="Поиск"></div>
+            <input type="text" placeholder="Что ищем?" aria-label="Поиск">
           </form>
         </div>
       </button>
       <a href="#" class="header__buttons__login"><span>Вход</span>
-        <form action="https://echo.htmlacademy.ru" method="post" class="login__form">
+        <form action="https://echo.htmlacademy.ru" method="post" class="login__form visually-hidden">
           <input type="text" name="login" placeholder="Электронная почта" aria-label="Логин">
           <input type="password" name="password" placeholder="пароль" aria-label="Пароль">
           <button type="submit" class="button" name="" aria-label="Войти">Войти</button>
@@ -49,7 +48,7 @@
         </form>
       </a>
       <button class="header__buttons__cart"><span>Пусто</span>
-        <div class="header__cart__pop-up">
+        <div class="header__cart__pop-up visually-hidden">
           <table>
             <tr>
               <td>
@@ -176,10 +175,12 @@
       <p class="copyright__text">Сделано в <a href="#" class="copyright__link">HTML Academy </a> © 2019</p>
     </div>
   </footer>
-  <form action="https://echo.htmlacademy.ru" method="post" class="reply__back">
+  <form action="https://echo.htmlacademy.ru" method="post" class="reply__back visually-hidden">
     <span>Мы обязательно вам ответим</span>
     <input type="text" name="name" placeholder="Как вас зовут?" aria-label="Как вас зовут?">
     <input type="text" name="mail" placeholder="Ваша почта для ответа?" aria-label="Ваша почта для ответа?">
     <textarea name="comment" placeholder="Напишите что-нибудь" aria-label="Напишите что-нибудь"></textarea>
     <button type="submit" class="button" name="submit" aria-label="Отправить">Отправить</button>
   </form>
+</body>
+</html>

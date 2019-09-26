@@ -20,10 +20,6 @@ a:visited {
   color: #ffffff;
 }
 
-.catalog__dropdown__list a:visited{
-  color: #323232;
-}
-
 .footer__links a:hover,
 .copyright__text a:hover {
   color: #ffbc9e;
@@ -48,6 +44,10 @@ a:visited {
 }
 .main-navigation {
   line-height: 18px;
+}
+
+.header__nav__list__item a:hover {
+  color: #323232;
 }
 
 .catalog__dropdown__list li{
@@ -113,7 +113,12 @@ a:visited {
 }
 
 .catalog__item__name {
+  line-height: 1.13;
   font-weight: 500;
+}
+
+.catalog__item__name:hover {
+  color: #ffbc9e;
 }
 
 .catalog__item__price {
@@ -165,6 +170,10 @@ a:visited {
   color: #323232;
 }
 
+.visually-hidden {
+  display: none;
+}
+
 input {
 	outline: none;
 }
@@ -214,4 +223,11 @@ input:focus::placeholder {
   height: 44px;
   box-shadow: inset 0px 2px 2px 0 #942718;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07)), linear-gradient(to bottom, #e74a35, #f26843);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('fonts/Roboto-Regular.ttf');
+  src: url('fonts/Roboto-Medium.ttf');
+  src: url('fonts/Roboto-Bold.ttf');
 }
