@@ -17,7 +17,7 @@
       <nav class="main-navigation">
         <ul class="header__nav__list">
           <li class="header__nav__list__item"><a href="catalog.html">Каталог</a>
-            <ul class="catalog__dropdown__list">
+            <ul class="catalog__dropdown__list visually-hidden">
               <li class="catalog__dropdown__item"><a href="#">Новинки</a></li>
               <li class="catalog__dropdown__item"><a href="#">Сливочное</a></li>
               <li class="catalog__dropdown__item"><a href="#">Щербеты</a></li>
@@ -31,7 +31,7 @@
       </nav>
     </div>
     <div class="header__buttons__container">
-      <button class="header__buttons__search">
+      <button class="header__buttons__search visually-hidden">
         <div class="search__field__container">
           <form method="get" action="#">
             <input type="text" placeholder="Что ищем?" aria-label="Поиск">
@@ -39,7 +39,7 @@
         </div>
       </button>
       <a href="#" class="header__buttons__login"><span>Вход</span>
-        <form action="https://echo.htmlacademy.ru" method="post" class="login__form">
+        <form action="https://echo.htmlacademy.ru" method="post" class="login__form visually-hidden">
           <input type="text" name="login" placeholder="Электронная почта" aria-label="Логин">
           <input type="password" name="password" placeholder="пароль" aria-label="Пароль">
           <button type="submit" class="button" name="" aria-label="Войти">Войти</button>
@@ -90,10 +90,10 @@
   <footer>
     <div class="footer__social__buttons__container">
       <ul class="social__buttons__list">
-        <li class="social__button twitter">Twitter</li>
-        <li class="social__button instagram">Instagram</li>
-        <li class="social__button facebook">Facebook</li>
-        <li class="social__button vkontakte">VKontakte</li>
+        <li class="social__button twitter"><a href="#">Twitter</a></li>
+        <li class="social__button instagram"><a href="#">Instagram</a></li>
+        <li class="social__button facebook"><a href="#">Facebook</a></li>
+        <li class="social__button vkontakte"><a href="#">VKontakte</a></li>
       </ul>
     </div>
     <div class="footer__links__container">
@@ -111,7 +111,7 @@
       <p class="copyright__text">Сделано в <a href="#" class="copyright__link">HTML Academy </a>© 2019</p>
     </div>
   </footer>
-  <form action="https://echo.htmlacademy.ru" method="post" class="reply__back">
+  <form action="https://echo.htmlacademy.ru" method="post" class="reply__back visually-hidden">
     <span>Мы обязательно вам ответим</span>
     <input type="text" name="name" placeholder="Как вас зовут?" aria-label="Как вас зовут?">
     <input type="text" name="mail" placeholder="Ваша почта для ответа?" aria-label="Ваша почта для ответа?">
