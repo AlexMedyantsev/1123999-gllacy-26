@@ -30,13 +30,12 @@
       </nav>
     </div>
     <div class="header__buttons__container">
-      <button class="header__buttons__search">
+      <form method="get" action="#">
+        <button  type="button" class="header__buttons__search"></button>
         <div class="search__field__container visually-hidden">
-          <form method="get" action="#">
-            <input type="text" placeholder="Что ищем?" aria-label="Поиск">
-          </form>
+          <input type="text" placeholder="Что ищем?" aria-label="Поиск">
         </div>
-      </button>
+      </form>
       <a href="#" class="header__buttons__login"><span>Вход</span>
         <form action="https://echo.htmlacademy.ru" method="post" class="login__form visually-hidden">
           <input type="text" name="login" placeholder="Электронная почта" aria-label="Логин">
@@ -46,7 +45,7 @@
           <a href="#" class="login__links">Новая регистрация</a>
         </form>
       </a>
-      <button class="header__buttons__cart"><span>Пусто</span></button>
+      <button type="button" class="header__buttons__cart"><span>Пусто</span></button>
     </div>
     <span class="work__time">С 10 до 20, ежедневно</span>
     <a href="tel:88124502525" class="contact__phone">8 812 450-25-25</a>
