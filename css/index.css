@@ -73,21 +73,53 @@ a:visited {
   line-height: 18px;
 }
 
-.header__nav__list__item a:hover {
+.header__nav__list__item:hover a {
   color: #323232;
+} 
+
+.header__nav__list__item:hover {
+  background-color: #f7f6f3;
+}
+
+.header__nav__list__item:active {
+  box-shadow: inset 0px 2px 1px 0 #696969;
+  background-color: #ededed;
 }
 
 .catalog__dropdown__list li{
   color: black;
 }
 
-.catalog__dropdown__item {
+.catalog__dropdown__item a{
   font-size: 14px;
   font-weight: normal;
   line-height: 1.14;
+  color: #323232;
 }
 
-.catalog__dropdown__item:first-of-type{
+.active{
+  background-color: #d07058;
+  /*color: #ffffff;*/
+}
+
+.catalog__dropdown__item .active__text{
+  color: #ffffff;
+}
+
+.catalog__dropdown__item:hover {
+  background-color: #fbded7;
+}
+
+.catalog__dropdown__item:hover a{
+  background-color: #fbded7;
+  color: #323232;
+}
+
+.catalog__dropdown__item:active {
+  background-color: #f6b5a5;
+}
+
+.catalog__dropdown__item:first-of-type a{
   font-weight: bold;
 }
 
