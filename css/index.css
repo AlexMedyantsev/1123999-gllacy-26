@@ -67,10 +67,6 @@ a:visited {
   list-style: none;
 }
 
-/*div,section,a,ul,li,p,footer,header{
-outline: 1px solid red;
-}*/
-
 /*Header*/
 
 .main-navigation {
@@ -127,6 +123,10 @@ outline: 1px solid red;
 
 /*Main*/
 
+.about__section {
+  background: url(../images/waffle4x4.jpg)
+}
+
 .about__preview {
   font-size: 24px;
   font-weight: 500;
@@ -163,6 +163,10 @@ outline: 1px solid red;
   font-size: 30px;
 }
 
+.blog {
+  background: url('../images/strawberry_bg.jpg') no-repeat;
+}
+
 .blog__header {
   font-weight: 500;
   line-height: 1.38;
@@ -173,6 +177,10 @@ outline: 1px solid red;
   font-size: 24px;
   line-height: 1.25;
   color: #323232;
+}
+
+.mail__container {
+  background: #F8F7F4;
 }
 
 .mail__container p {
