@@ -115,7 +115,8 @@ a:visited {
   color: #323232;
 }
 
-.catalog__dropdown__item:active {
+.catalog__dropdown__item:active,
+.catalog__dropdown__item:active a {
   background-color: #f6b5a5;
 }
 
