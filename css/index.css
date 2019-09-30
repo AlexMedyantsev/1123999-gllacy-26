@@ -153,6 +153,46 @@ a:visited {
 
 /*Main*/
 
+.main-banner h1{
+  font-size: 60px;
+  line-height: 1;
+}
+
+.main-banner button {
+  font-size: 32px;
+  line-height: 1.32;
+  text-shadow: 0px 2px 5px rgba(160, 32, 11, 0.76);
+}
+
+.main-banner-image {
+  background: url(../images/main_banner_ice_cream.png);
+}
+
+.raspberry-offer {
+	background-color: #73172b;
+	background: url(../images/raspberry_bg.jpg) no-repeat;
+}
+
+.chocolate-offer {
+	background-color: #3a2217;
+	background: url(../images/chocolate_bg.jpg) no-repeat;
+}
+
+.offer h2 {
+  font-size: 35px;
+  line-height: 1.17;
+}
+
+.offer p {
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.offer a {
+  font-size: 18px;
+  line-height: 1.33;
+}
+
 .about-section {
   background: url(../images/waffle4x4.jpg)
 }
@@ -219,6 +259,50 @@ a:visited {
   color: #5a5a5a;
 }
 
+.map-wrapper {
+  position: relative;
+  width: 100%;
+  height: 430px;
+  margin-top: 39px
+
+}
+
+.map {
+  width: 100%;
+  height: 430px;
+}
+
+.map-info {
+  position: absolute;
+  top: 63px;
+  right: 27px;
+  width: 302px;
+  height: 305px;
+  color: #323232;
+  background-color: #ffffff;
+}
+.map-adress{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.43;
+}
+
+.map-adress b {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.33;
+}
+
+.map-time {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.57;
+}
+
+.map-phone b {
+  line-height: 1.57;
+}
+
 /* Footer */
 
 .footer-links a {
@@ -274,8 +358,8 @@ input:focus::placeholder {
 .button {
   border: 0;
   color: #fefefe;
-  width: 129px;
-  height: 44px;
+ /* width: 129px;
+  height: 44px;*/
   box-shadow: 0px 2px 2px 0 rgba(172, 16, 0, 0.64);
   background-image: linear-gradient(to top, #e74a35, #f26843);
   text-shadow: 0px 2px 5px rgba(160, 32, 11, 0.76);
@@ -283,17 +367,13 @@ input:focus::placeholder {
 }
 
 .button:hover{
-  width: 129px;
-  height: 44px;
   border: 0;
   box-shadow: 0px 2px 2px 0 #ac1000;
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), linear-gradient(to top, #e74a35, #f26843);
 }
 
-.button:focus{
-	outline: none;
-  width: 129px;
-  height: 44px;
+.button:active{
+  outline: none;
   box-shadow: inset 0px 2px 2px 0 #942718;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07)), linear-gradient(to bottom, #e74a35, #f26843);
 }
