@@ -45,7 +45,7 @@
           <a href="#" class="login-links">Новая регистрация</a>
         </form>
       </a>
-      <button type="button" class="header-buttons-cart"><span>Пусто</span></button>
+      <button type="button" class="header-buttons-cart"><span>2 товара</span></button>
       <div class="header-cart-pop-up visually-hidden">
         <table>
           <tr>
@@ -85,6 +85,49 @@
       <li><a href="#">Сливочное</a></li>
     </ul>
     <h1>Сливочное мороженое</h1>
+    <section>
+      <form class="filters" action="#" method="get">
+        <div class="sort-by-title filter-title">Сортировка:</div>
+        <select id="sort-by">
+          <option value="popular">по популярности</option>
+          <option value="cheap">сначала недорогие</option>
+          <option value="expensive">сначала дорогие</option>
+          <option value="fat">по жирности</option>
+        </select>
+        <div class="slider-title filter-title"></div>
+        <div class="slider-wrapper">
+          <div class="scale"></div>
+          <div class="bar"></div>
+          <div class="slider"></div>
+          <div class="slider"></div>
+        </div>
+        <fieldset class="filter-fat">
+          <legend class="filter-fat filter-title">Жирность:</legend>
+          <input type="radio" id="fat-0" name="fat" value="0">
+          <label for="fat-0">0%</label>
+          <input type="radio" id="fat-<10" name="fat" value="0" checked>
+          <label for="fat-<10">до 10%</label>
+          <input type="radio" id="fat-<30" name="fat" value="0">
+          <label for="fat-<30">до 30%</label>
+          <input type="radio" id="fat->30" name="fat" value="0">
+          <label for="fat->30">выше 30%</label>
+        </fieldset>
+        <fieldset class="filter-filler">
+          <legend class="filler-title filter-title">Наполнители</legend>
+          <input type="checkbox" id="chocolate" name="filler" value="шоколадные" checked>
+          <label for="chocolate" class="label">шоколадные</label>
+          <input type="checkbox" id="sugar" name="filler" value="cахарные присыпки" checked>
+          <label for="sugar">сахарные присыпки</label>
+          <input type="checkbox" id="fruits" name="filler" value="фрукты">
+          <label for="fruits">фрукты</label>
+          <input type="checkbox" id="syrup" name="filler" value="сиропы">
+          <label for="syrup">сиропы</label>
+          <input type="checkbox" id="jam" name="filler" value="джемы">
+          <label for="jam">джемы</label>
+        </fieldset>
+        <button class="filter-button" type="submit">Применить</button>
+      </form>
+    </section>
     <ul class="catalog-items-list">
       <li class="catalog-item">
         <img class="catalog-item-image" src="images/creamy_orange_ice_cream.png" width="267" height="267" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой ">
@@ -147,6 +190,21 @@
         <a href="#" span class="catalog-item-name">Сливочное с мятным сиропом</a>
       </li>
     </ul>
+    <nav class="catalog-pages">
+      <ul class="catalog-pages-list">
+        <li>
+          <a><img src="images/arrow-link-left.svg" width="8" height="14" alt="Назад"></a>
+        </li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>
+          <a><img src="images/arrow-link-right.svg" width="8" height="14" alt="Вперёд"></a>
+        </li>
+      </ul>
+    </nav>
   </main>
   <footer>
     <div class="footer-social-buttons-container">

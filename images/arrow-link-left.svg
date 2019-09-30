@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="12px" viewBox="0 0 8 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>icon-right-small</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="Catalog" transform="translate(-982.000000, -1493.000000)" fill="#C1C6CE" fill-rule="nonzero">
+            <g id="Пагинатор" transform="translate(982.000000, 1485.000000)">
+                <g id="icon-right-small" transform="translate(4.000000, 14.000000) rotate(-180.000000) translate(-4.000000, -14.000000) translate(0.000000, 7.000000)">
+                    <path d="M7.237,6.642 L1.729,1.133 C1.53128206,0.93528206 1.21071794,0.93528206 1.013,1.133 C0.81528206,1.33071794 0.81528206,1.65128206 1.013,1.849 L6.163,7 L1.012,12.15 C0.826482288,12.349731 0.832102872,12.6604048 1.02472372,12.8532947 C1.21734457,13.0461846 1.52801027,13.0522388 1.728,12.867 L7.237,7.358 C7.3325122,7.26335321 7.38624375,7.1344641 7.38624375,7 C7.38624375,6.8655359 7.3325122,6.73664679 7.237,6.642 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
