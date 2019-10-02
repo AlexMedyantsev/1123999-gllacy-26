@@ -243,6 +243,10 @@ li {
   color: #323232;
 }
 
+.mail-stripes-container {
+  background: url("../images/stripes_bg.jpg") no-repeat;
+}
+
 .mail-container {
   background: #F8F7F4;
 }
@@ -293,8 +297,11 @@ li {
   line-height: 1.57;
 }
 
-.map-phone b {
-  line-height: 1.57;
+.map-phone {
+  line-height: 22px;
+  color: #323232;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .catalog-pages-list li{
