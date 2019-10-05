@@ -90,13 +90,15 @@
     <h1>Сливочное мороженое</h1>
     <section>
       <form class="filters" action="#" method="get">
-        <div class="sort-by-title filter-title">Сортировка:</div>
-        <select id="sort-by">
-          <option value="popular">по популярности</option>
-          <option value="cheap">сначала недорогие</option>
-          <option value="expensive">сначала дорогие</option>
-          <option value="fat">по жирности</option>
-        </select>
+        <fieldset class="filter-sort">
+          <legend class="sort-by-title filter-title">Сортировка:</legend>
+          <select id="sort-by">
+            <option value="popular">по популярности</option>
+            <option value="cheap">сначала недорогие</option>
+            <option value="expensive">сначала дорогие</option>
+            <option value="fat">по жирности</option>
+          </select>
+        </fieldset>
         <div class="slider-title filter-title">Цена 100 руб. - 500 руб.</div>
         <div class="slider-wrapper">
           <div class="scale"></div>
