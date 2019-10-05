@@ -68,7 +68,7 @@ li {
   color: #323232;
 } 
 
-.header-nav-list-item:hover {
+.header-nav-list-item:hover > a {
   background-color: #f7f6f3;
 }
 
