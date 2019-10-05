@@ -227,6 +227,10 @@ li {
   font-size: 30px;
 }
 
+.quick-preview {
+  width: 200px;
+  height: 44px;
+}
 .blog {
   background: url('../images/strawberry_bg.jpg') no-repeat;
 }
