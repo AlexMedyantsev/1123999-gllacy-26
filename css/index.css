@@ -219,7 +219,6 @@ li {
 
 .blog-header {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.38;
   color: #323232;
 }
@@ -374,6 +373,8 @@ input:focus::placeholder {
   box-shadow: 0px 2px 2px 0 rgba(172, 16, 0, 0.64);
   background-image: linear-gradient(to top, #e74a35, #f26843);
   text-shadow: 0px 2px 5px rgba(160, 32, 11, 0.76);
+  font-family: "Roboto";
+  font-weight: bold;
   cursor: pointer;
 }
 
