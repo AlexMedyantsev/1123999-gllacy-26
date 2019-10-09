@@ -227,6 +227,7 @@ li {
   font-size: 24px;
   line-height: 1.25;
   color: #323232;
+  text-decoration: underline;
 }
 
 .mail-stripes-container {
