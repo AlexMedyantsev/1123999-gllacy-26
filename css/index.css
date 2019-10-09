@@ -64,60 +64,32 @@ li {
   line-height: 18px;
 }
 
-.header-nav-list-item:hover a {
-  color: #323232;
-} 
-
-.header-nav-list-item:hover > a {
+/*Элементы первого уровня*/
+.header-nav-list-item:hover {
   background-color: #f7f6f3;
 }
 
+.header-nav-list-item:hover a {
+  color: #323232;
+}
+
 .header-nav-list-item:active {
-  box-shadow: inset 0px 2px 1px 0 #696969;
+	box-shadow: inset 0px 2px 1px 0 #696969;
   background-color: #ededed;
 }
 
-.catalog-dropdown-list li{
-  color: black;
+.active {
+  background-color: #d07058;;
 }
-
-.catalog-dropdown-item a{
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.14;
-  color: #323232;
-}
-
-.active{
-  background-color: #d07058;
-  /*color: #ffffff;*/
-}
-
-.catalog-dropdown-item .active-text{
-  color: #ffffff;
-}
-
-.catalog-dropdown-item:hover {
-  background-color: #fbded7;
-}
-
-.catalog-dropdown-item:hover a{
-  background-color: #fbded7;
-  color: #323232;
-}
-
-.catalog-dropdown-item:active,
-.catalog-dropdown-item:active a {
-  background-color: #f6b5a5;
-}
-
 .catalog-dropdown-item:first-of-type a{
   font-weight: bold;
 }
 
-.header-buttons-container {
+.header-buttons-login {
   font-weight: 500;
   font-size: 14px;
+  line-height: 1.14;
+
 }
 
 .login-links{
@@ -138,6 +110,7 @@ li {
 
 .work-time {
   line-height: 1.14;
+  font-size: 14px;
 }
 
 .contact-phone {
@@ -146,6 +119,10 @@ li {
 }
 
 /*Main*/
+.main-title {
+  font-size: 35px;
+  line-height: 1.17;
+}
 
 .main-banner h1{
   font-size: 60px;
@@ -154,8 +131,9 @@ li {
 
 .main-banner button {
   font-size: 32px;
-  line-height: 1.32;
+  line-height: 1.38;
   text-shadow: 0px 2px 5px rgba(160, 32, 11, 0.76);
+  font-weight: bold;
 }
 
 .main-banner-image {
@@ -203,14 +181,17 @@ li {
   color: #323232;
 }
 
+.about-item {
+  line-height: 1.38;
+}
 .sub-navigation a {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 1.14;
 }
 
 .catalog-item-name {
-  line-height: 1.13;
+  line-height: 1.38;
   font-weight: 500;
 }
 
@@ -221,6 +202,7 @@ li {
 .catalog-item-price {
   font-size: 45px;
   line-height: 1;
+  text-shadow: 0.5px 0.9px 3px rgba(49, 50, 53, 0.5);
 }
 
 .kilogram {
@@ -237,6 +219,7 @@ li {
 
 .blog-header {
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.38;
   color: #323232;
 }
@@ -259,6 +242,14 @@ li {
   font-weight: normal;
   line-height: 1.38;
   color: #5a5a5a;
+}
+
+.subscribe-form input{
+  line-height: 1.5;
+}
+
+.subscribe-button {
+  font-size: 18px;
 }
 
 .map-wrapper {
