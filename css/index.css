@@ -312,7 +312,20 @@ li {
 }
 
 .filter-button {
-	color: #ffffff;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.13;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.filter-button:hover {
+  background-color: white;
+  color: #323232;
+}
+
+.filter-button:active {
+  box-shadow: inset 0px 2px 1px 0 #696969;
+  background-color: #ededed;
 }
 /* Footer */
 
