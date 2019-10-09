@@ -301,8 +301,38 @@ li {
 
 .catalog-pages-list li{
   display: inline;
+  color: white;
   font-weight: 500;
   line-height: 1.13;
+}
+
+.catalog-page-link {
+}
+
+.catalog-page-link:hover {
+  background: rgba(255,255,255, 0.2);
+}
+
+
+.catalog-page-link:active {
+  background-color: white;
+  color: #323232;
+}
+
+.arrow-link-left {
+  background-image: url("../images/arrow-link-left.svg");
+  color: white;
+  display: inline-block;
+  width: 8px;
+  height: 12px;
+}
+
+.arrow-link-right {
+  background-image: url("../images/arrow-link-right.svg");
+  color: white;
+  display: inline-block;
+  width: 8px;
+  height: 12px;
 }
 
 .filter-title {
