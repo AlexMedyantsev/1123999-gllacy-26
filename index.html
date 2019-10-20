@@ -38,15 +38,18 @@
             <input type="text" placeholder="Что ищем?" aria-label="Поиск">
           </div>
         </form>
-        <a href="#" class="header-buttons-login"><span>Вход</span>
+        <a href="#" class="header-buttons-login"><span>Вход</span></a>
           <form action="https://echo.htmlacademy.ru" method="post" class="login-form visually-hidden">
-            <input type="text" name="login" placeholder="Электронная почта" aria-label="Логин">
-            <input type="password" name="password" placeholder="пароль" aria-label="Пароль">
-            <button type="submit" class="button" name="" aria-label="Войти">Войти</button>
-            <a href="#" class="login-links">Забыли пароль?</a>
-            <a href="#" class="login-links">Новая регистрация</a>
+            <input type="text" name="login" placeholder="Электронная почта" aria-label="Логин" class="login">
+            <input type="password" name="password" placeholder="пароль" aria-label="Пароль" class="password">
+            <div class="wrapper">
+              <button type="submit" class="button" name="enter-button" aria-label="Войти">Войти</button>
+              <div class="user-help-wrapper">
+                <a href="#" class="login-links login-links-password">Забыли пароль?</a>            
+                <a href="#" class="login-links">Новая регистрация</a>
+              </div>
+            </div>
           </form>
-        </a>
         <button type="button" class="header-buttons-cart"><span>Пусто</span></button>
       </div>
       <div class="main-info">
@@ -72,9 +75,9 @@
           </div>
         </div>
         <div class="slide-button-container">
-          <div class="slide-button-1" aria-label="Слайд 1"></div>
-          <div class="slide-button-2" aria-label="Слайд 2"></div>
-          <div class="slide-button-3" aria-label="Слайд 3"></div>
+          <div class="slide-button-1 slide-button" aria-label="Слайд 1"></div>
+          <div class="slide-button-2 slide-button" aria-label="Слайд 2"></div>
+          <div class="slide-button-3 slide-button" aria-label="Слайд 3"></div>
         </div>
         <button type="button" class="button">Давайте оба!</button>
       </section>
@@ -148,22 +151,25 @@
           </div>
         </div>
       </section>
-      <div class="map-wrapper">
+    </main>
+  </div>
+
+    <div class="map-wrapper">
         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1680.626500259789!2d30.324913289047686!3d59.93856375735322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1463165208330" allowfullscreen="">
         </iframe>
         <div class="map-info">
-            <p class="map-adress">Адрес главного офиса и офлайн-магазина:
-            <b>ул. Большая Конюшенная 19/8, Санкт-Петербург</b></p>
-            <p>
-            <p class="map-adress">Для заказов по телефону:</p>
-            <p class="map-time"><a href="tel:88124502525" class="map-phone">8 812 450-25-25</a></br>
-              (с 10 до 20 ежедневно)
-            </p>  
-            <button class="button" type="button">Форма обратной связи</button> 
-          </div>
+          <p class="map-address">
+            <span class="map-address-small">Адрес главного офиса и<br> офлайн магазина:</span>
+            <span class="map-address-large">ул. Большая Конюшенная 19/8, Санкт-Петербург</span>
+          </p>
+          <p class="map-phone-number">
+            <span class="map-phone-number-small">Для заказов по телефону:</span>
+            <span class="map-phone-number-large">8 812 450-25-25</span>
+            <span class="map-phone-number-small">(c 10 до 20 ежедневно)</span>
+          </p>
+          <button class="btn btn-map-feed-back" href="form.html">Форма обратной связи</button>
+        </div>
       </div>
-    </main>
-
 
     <footer class="catalog-footer">
       <ul class="social-buttons-list">
@@ -189,7 +195,6 @@
         <p class="copyright-text">Сделано в <a href="#" class="copyright-link">HTML Academy </a>© 2019</p>
       </div>
     </footer>
-  </div>
   <form action="https://echo.htmlacademy.ru" method="post" class="reply-back visually-hidden">
     <span>Мы обязательно вам ответим</span>
     <input type="text" name="name" placeholder="Как вас зовут?" aria-label="Как вас зовут?">
