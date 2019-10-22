@@ -470,8 +470,11 @@ header {
 }
 
 .cart-with-items:hover + .header-cart-pop-up{
-  display: flex;
-  flex-direction: column;
+  display: block;
+}
+
+.header-cart-pop-up:hover {
+  display: block;
 }
 
 .header-cart-pop-up {
@@ -483,7 +486,6 @@ header {
   box-shadow: 0px 20px 20px 0 rgba(0, 0, 0, 0.4);
   background-color: #ffffff;
   padding-bottom: 20px;
-
   z-index: 5;
 }
 
@@ -576,9 +578,10 @@ table {
 .gray-line {
   width: 510px;
   height: 1px;
-  background-color: #cacac7;
+  background: #cacac7;
   margin-top: 24px;
   margin-left: 16px;
+  display: block;
   /*margin-bottom: 16px;*/
 }
 
@@ -1319,11 +1322,30 @@ footer {
   text-decoration-color: rgba(255, 255, 255, 0.2)
 }
 
+.reply-back {
+	display: flex;
+	flex-direction: column;
+	padding-top: 20px;
+	padding-right: 25px;
+	padding-bottom: 27px;
+	padding-left: 24px;
+}
+
 .reply-back span {
   font-size: 24px;
   font-weight: 500;
   line-height: 1.17;
   color: #323232;
+}
+
+.reply-back input {
+  width: 267px;
+  height: 44px;
+  padding-left: 15px;
+}
+
+.reply-back input:hover {
+	padding-left: 14px;
 }
 
 .visually-hidden {
