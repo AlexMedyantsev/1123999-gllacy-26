@@ -51,6 +51,7 @@ body {
 a {
   text-decoration: none;
   color: #ffffff;
+  cursor: pointer;
 }
 
 a:visited {
@@ -106,6 +107,7 @@ header {
 .header-logo {
   margin-top: 9px;
   display: block;
+  cursor: pointer;
 }
 
 .main-navigation {
@@ -126,7 +128,7 @@ header {
   border-radius: 20px;
   padding: 9px 13px 12px 14px;
   position: relative;
-
+  cursor: pointer;
 }
 
 .header-nav-list-item:first-of-type {
@@ -146,8 +148,9 @@ header {
    border-bottom: none;
 }
 
-.header-nav-list-item:hover {
+.main-navigation ul .header-nav-list-item:hover {
   background-color: #f7f6f3;
+  cursor: pointer;
 }
 
 .header-nav-list-item:hover a {
@@ -270,6 +273,7 @@ header {
 
 .header-buttons-search:hover {
   background: #f8f7f4 url('../images/loupe-dark.svg') no-repeat 50% 50%;
+  cursor: pointer;
 }
 
 .header-buttons-search:hover~.search-field-container {
@@ -467,6 +471,7 @@ header {
 .header-buttons-cart:hover,
 .cart-with-items:hover {
   background-color: #f8f7f4;
+  cursor: pointer;
 }
 
 .header-buttons-cart:hover>span,
@@ -482,12 +487,21 @@ header {
   background: url("../images/basket-red.svg");
 }
 
-.cart-with-items:hover + .header-cart-pop-up{
+.cart-with-items:hover ~ .header-cart-pop-up{
   display: block;
 }
 
 .header-cart-pop-up:hover {
-  /*display: block;*/
+  display: block;
+}
+
+.header-cart-pop-up::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  right: 0px;
+  width: 200px;
+  height: 20px;
 }
 
 .header-cart-pop-up {
@@ -869,6 +883,8 @@ main {
 .catalog-item button,
 .hit-item-container button {
   display: none;
+  font-size: 18px;
+  line-height: 1.33;
 }
 
 .catalog-item:hover button,
@@ -996,7 +1012,7 @@ main {
   margin-top: 17px;
 }
 
-.catalog-item .catalog-item-name {
+.catalog-item-name {
   line-height: 1.38;
   font-weight: 500;
   padding: 0;
