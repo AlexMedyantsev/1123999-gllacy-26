@@ -73,6 +73,10 @@ li {
   list-style: none;
 }
 
+ul {
+  padding-inline-start: 0px;
+}
+
 .site-wrapper {
   width: 1200px;
   margin: 0 auto;
@@ -90,8 +94,6 @@ header {
   display: flex;
   justify-content: space-between;
   width: 1200px;
-  padding-left: auto;
-  padding-right: auto;
   padding-right: 27px;
   padding-left: 27px;
   margin: 0 auto;
@@ -110,15 +112,21 @@ header {
 }
 
 /*Элементы первого уровня*/
-.header-nav-list {
+.main-navigation > ul {
   display: flex;
+  margin: 0;
+  margin-top: 23px;
+  padding-left: 0;
 }
 
 .header-nav-list-item {
   height: 32px;
-  margin-top: 23px;
+  /*margin-top: 23px;*/
   /*vertical-align: middle;*/
   border-radius: 20px;
+  padding: 9px 13px 12px 14px;
+  position: relative;
+
 }
 
 .header-nav-list-item:first-of-type {
@@ -126,14 +134,16 @@ header {
 }
 
 .header-nav-list-item > a {
-  padding: 6px 13px;
+  line-height: 1;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
   display: block;
-  text-decoration: underline;
-  text-decoration-color: rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .active > a {
-  text-decoration: none;
+   border-bottom: none;
 }
 
 .header-nav-list-item:hover {
@@ -151,7 +161,6 @@ header {
 
 .active {
   background-color: #d07058;
-  ;
 }
 
 .catalog-dropdown-list {
@@ -159,12 +168,14 @@ header {
   box-shadow: 0px 20px 20px 0 rgba(0, 0, 0, 0.4);
   background-color: #f8f7f4;
   border-radius: 5px;
+  top: 37px;
+  left: 0px;
   margin-left: -6px;
-  margin-top: 5px;
   width: 143px;
   display: flex;
   flex-wrap: wrap;
   z-index: 3;
+  padding-left: 0;
   /*outline: 1px solid green;*/
 }
 
@@ -473,10 +484,6 @@ header {
   display: block;
 }
 
-.header-cart-pop-up:hover {
-  display: block;
-}
-
 .header-cart-pop-up {
   position: absolute;
   top: 59px;
@@ -486,6 +493,7 @@ header {
   box-shadow: 0px 20px 20px 0 rgba(0, 0, 0, 0.4);
   background-color: #ffffff;
   padding-bottom: 20px;
+
   z-index: 5;
 }
 
@@ -522,7 +530,7 @@ table {
 
 .header-buttons-cart>span,
 .cart-with-items>span {
-  display: flex;
+  /*display: flex;*/
   color: white;
   font-weight: 500;
   font-size: 14px;
@@ -578,10 +586,9 @@ table {
 .gray-line {
   width: 510px;
   height: 1px;
-  background: #cacac7;
+  background-color: #cacac7;
   margin-top: 24px;
   margin-left: 16px;
-  display: block;
   /*margin-bottom: 16px;*/
 }
 
@@ -1322,30 +1329,11 @@ footer {
   text-decoration-color: rgba(255, 255, 255, 0.2)
 }
 
-.reply-back {
-	display: flex;
-	flex-direction: column;
-	padding-top: 20px;
-	padding-right: 25px;
-	padding-bottom: 27px;
-	padding-left: 24px;
-}
-
 .reply-back span {
   font-size: 24px;
   font-weight: 500;
   line-height: 1.17;
   color: #323232;
-}
-
-.reply-back input {
-  width: 267px;
-  height: 44px;
-  padding-left: 15px;
-}
-
-.reply-back input:hover {
-	padding-left: 14px;
 }
 
 .visually-hidden {
@@ -1359,6 +1347,10 @@ input {
 input[type="text"],
 input[type="password"] {
   color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.71;
 }
 
 input[type="text"]:hover,
