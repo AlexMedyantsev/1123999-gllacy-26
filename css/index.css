@@ -139,7 +139,7 @@ header {
   padding-left: 0px;
   padding-bottom: 0px;
   display: block;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .active > a {
@@ -216,6 +216,7 @@ header {
   height: 1px;
   background-color: black;
   opacity: 0.2;
+  z-index: 6;
 }
 
 .header-catalog:hover .catalog-dropdown-list {
@@ -865,11 +866,13 @@ main {
   display: none;
 }
 
-.catalog-item button {
+.catalog-item button,
+.hit-item-container button {
   display: none;
 }
 
-.catalog-item:hover button {
+.catalog-item:hover button,
+.hit-item-container:hover button {
   display: block;
   position: absolute;
   top: 333px;
@@ -883,7 +886,8 @@ main {
   z-index: 10;
 }
 
-.catalog-item:hover .item-card{
+.catalog-item:hover .item-card,
+.hit-item-container:hover .item-card{
   display: block;
   position: absolute;
   top: -6px;
@@ -987,8 +991,8 @@ main {
   line-height: 1.38;
   font-weight: 500;
   margin-top: 17px;
-  text-decoration: underline;
-  text-decoration-color: rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  border-bottom: 1px solid rgba(255,255,255, 0.2);
 }
 
 .catalog-item-name:hover {
