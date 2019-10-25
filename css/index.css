@@ -1335,8 +1335,7 @@ footer {
 .footer-links a {
   font-size: 13px;
   font-weight: normal;
-  text-decoration: underline;
-  text-decoration-color: rgba(255, 255, 255, 0.2)
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .first-column {
@@ -1370,8 +1369,7 @@ footer {
 }
 
 .copyright-link {
-  text-decoration: underline;
-  text-decoration-color: rgba(255, 255, 255, 0.2)
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .reply-back span {
