@@ -44,8 +44,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid red;
-
 }
 
 a {
@@ -673,7 +671,6 @@ main {
   justify-content: center;
   z-index: 10;
 
-  outline: 1px solid yellow;
 }
 
 .sub-navigation {
@@ -1149,41 +1146,70 @@ main {
 
 .map-info {
   position: absolute;
-  display: flex;
   flex-wrap: wrap;
   top: 63px;
   right: 27px;
   width: 302px;
-  height: 305px;
   border-radius: 12px;
-  /*padding-top: 22px*/
+  padding: 25px;
   color: #323232;
   background-color: #ffffff;
 }
 
 .map-address {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.43;
+  display: block;
 }
 
-.map-adress b {
+.map-address-small {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  width: 148px;
+  line-height: 1.43;
+  margin-bottom: 5px;
+}
+
+.map-address-large {
+  display: block;
+  width: 221px;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.33;
+  margin-bottom: 23px;
 }
 
-.map-time {
+.map-phone-number-small {
+  display: block;
   font-size: 14px;
-  font-weight: 400;
-  line-height: 1.57;
+  font-weight: normal;
+  line-height: 1.43;
+  margin-bottom: 8px;
 }
 
-.map-phone {
+.map-phone-number-large {
+  display: block;
+  font-size: 18px;
   line-height: 22px;
-  color: #323232;
+  margin-bottom: 4px;
+}
+
+.map-phone-time-small {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.43;
+  margin-bottom: 26px;
+}
+
+.map-info button {
+  display: block;
+  height: 44px;
+  padding: 10px 27px;
+  border-radius: 44px;
   font-size: 18px;
   font-weight: bold;
+  line-height: 1.33;
+  color: #fefefe;
 }
 
 .catalog-pages {
@@ -1301,6 +1327,7 @@ footer {
   margin: 0 auto;
   padding-left: 26px;
   padding-right: 26px;
+  outline: 1px solid red;
 }
 
 .catalog-footer {
