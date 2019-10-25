@@ -922,11 +922,10 @@ main {
 
 .about-section {
   background: url(../images/waffle4x4.jpg);
-  /*display: flex;*/
+  background-color: #ebddbf ;
   width: 1146px;
   margin-bottom: 40px;
   padding-top: 29px;
-  /*padding-left: 33px;*/
   padding-bottom: 26px;
   padding-left: 20px;
   border-radius: 15px;
