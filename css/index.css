@@ -899,6 +899,11 @@ main {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+.catalog-item:hover .catalog-item-name,
+.hit-item-container:hover .catalog-item-name{
+  border-bottom: none;
+}
+
 .about-section {
   background: url(../images/waffle4x4.jpg);
   /*display: flex;*/
@@ -987,11 +992,16 @@ main {
   line-height: 1.14;
 }
 
-.catalog-item-name {
+.wrap {
+  margin-top: 17px;
+}
+
+.catalog-item .catalog-item-name {
   line-height: 1.38;
   font-weight: 500;
-  margin-top: 17px;
-  display: inline-block;
+  padding: 0;
+  display: inline;
+  text-align: center;
   border-bottom: 1px solid rgba(255,255,255, 0.2);
 }
 
