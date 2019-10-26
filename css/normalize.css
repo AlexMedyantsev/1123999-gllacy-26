@@ -281,6 +281,13 @@ textarea {
   margin: 0; /* 2 */
 }
 
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+  padding-inline-start: 0px;
+  padding-inline-end: 0px;
+}
 /**
  * Restore the font weight unset by the previous rule.
  */
@@ -345,15 +352,7 @@ button:-moz-focusring,
   outline: 1px dotted ButtonText;
 }
 
-/**
- * Change the border, margin, and padding in all browsers (opinionated).
- */
 
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
