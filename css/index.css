@@ -1425,13 +1425,66 @@ footer {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.reply-back {
+  display: block;
+  width: 478px;
+  padding: 24px 20px 25px 27px;
+  border-radius: 10px;
+  background-color: #f8f7f4;
+  margin: 0 auto;
+}
+
 .reply-back span {
+  display: block;
   font-size: 24px;
   font-weight: 500;
   line-height: 1.17;
   color: #323232;
+  margin-bottom: 24px;
 }
 
+.reply-back input {
+  display: block;
+}
+
+.reply-back input[type="text"] {
+  width: 267px;
+  height: 44px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d2;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.reply-back textarea {
+  display: block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #999999;
+  width: 428px;
+  height: 155px;
+  padding-top: 13px;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: solid 1px rgba(178, 178, 178, 0.52);
+  resize:none;
+  overflow:auto;
+}
+
+.reply-back button {
+  display: block;
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #fefefe;
+  border-radius: 22px;
+  padding-right: 24px;
+  padding-left: 24px;
+  height: 44px;
+  margin-left: 290px;
+}
 .visually-hidden {
   display: none;
 }
@@ -1461,10 +1514,10 @@ input[type="password"]:focus {
   color: #323232;
 }
 
-input:focus::placeholder {
+input:focus::placeholder,
+textarea:focus::placeholder {
   color: transparent;
 }
-
 .button {
   border: 0;
   color: #fefefe;
