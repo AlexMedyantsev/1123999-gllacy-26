@@ -89,7 +89,6 @@ ul {
 
 header {
   width: 100%;
-  /*height: auto;*/
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -122,8 +121,6 @@ header {
 
 .header-nav-list-item {
   height: 32px;
-  /*margin-top: 23px;*/
-  /*vertical-align: middle;*/
   border-radius: 20px;
   padding: 9px 13px 12px 14px;
   position: relative;
@@ -147,7 +144,7 @@ header {
    border-bottom: none;
 }
 
-.main-navigation ul .header-nav-list-item:hover {
+.main-navigation ul .header-nav-list-item:hover{
   background-color: #f7f6f3;
   cursor: pointer;
 }
@@ -178,7 +175,6 @@ header {
   flex-wrap: wrap;
   z-index: 3;
   padding-left: 0;
-  /*outline: 1px solid green;*/
 }
 
 .catalog-dropdown-list::before {
@@ -188,7 +184,6 @@ header {
   left: 0px;
   height: 20px;
   width: 100px;
-  /*outline: 1px solid red;*/
 }
 
 .catalog-dropdown-item {
@@ -197,15 +192,6 @@ header {
   display: flex;
   align-items: center;
   position: relative;
-  /*outline: 1px solid pink;*/
-}
-
-.catalog-dropdown-item:first-of-type {
-	/*outline: 1px solid red;*/
-}
-
-.catalog-dropdown-item:first-of-type a{
-	/*outline: 1px solid black;*/
 }
 
 .catalog-dropdown-item:first-of-type a::before {
@@ -322,8 +308,6 @@ header {
   background: #f8f7f4 url('../images/loupe-dark.svg') no-repeat 50% 50%;
 }
 
-/*  */
-
 .search-field-container input {
   width: 311px;
   height: 44px;
@@ -370,7 +354,6 @@ header {
   border-radius: 5px;
   box-shadow: 0px 20px 20px 0 rgba(0, 0, 0, 0.4);
   background-color: #f8f7f4;
-  /*background-color: black;*/
 }
 
 .login-form:hover {
@@ -523,7 +506,6 @@ table {
 
 .header-cart-pop-up tr {
   display: flex;
-  /*align-items: center;*/
 }
 
 .header-cart-pop-up td {
@@ -607,11 +589,9 @@ table {
   background-color: #cacac7;
   margin-top: 24px;
   margin-left: 16px;
-  /*margin-bottom: 16px;*/
 }
 
 .total-container {
-  /*outline: 1px solid gold;*/
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -629,7 +609,6 @@ table {
 .header-cart-pop-up a {
   display: block;
   width: auto;
-  /*margin-bottom: 21px;*/
   padding-top: 11px;
   padding-right: 14px;
   padding-bottom: 11px;
@@ -760,7 +739,6 @@ main {
   height: 21px;
   border: 2px solid #ffffff;
   border-radius: 50%;
-  /*background-color: white;*/
   margin-left: 8px;
 }
 
@@ -788,7 +766,6 @@ main {
 
 .offer {
   width: 560px;
-  /*height: 229px;*/
   border-radius: 15px;
   padding-top: 23px;
   padding-bottom: 23px;
@@ -880,8 +857,6 @@ main {
   position: relative;
   display: flex;
   flex-direction: column;
-  /*justify-content: center;
-  align-items: center;*/
   text-align: center;
   margin-right: 26px;
   z-index: 5;
@@ -1009,7 +984,6 @@ main {
 .about-item {
   line-height: 1.38;
   padding-top: 12px;
-  /*display: flex;*/
   position: relative;
 }
 
@@ -1061,7 +1035,6 @@ main {
 .blog-mail-section {
   width: 100%;
   display: flex;
-  /*justify-content: space-between;*/
 }
 
 .blog {
@@ -1147,7 +1120,6 @@ main {
 
 .map {
   position: relative;
-  /*left: -26px;*/
   width: 100%;
   height: 430px;
   border: 0;
@@ -1415,7 +1387,6 @@ main {
     margin-top: 8px;
     margin-right: 9px;
     margin-left: 25px;
-    /*vertical-align: middle;*/
 }
 
 .fat-wrapper input,
@@ -1459,10 +1430,6 @@ main {
   background: url("../images/checkbox-off.svg");
 }
 
-/*.filter-wrapper label::after {
-
-}*/
-
 .fat-check:hover + label::before,
 .type-check:hover + label::before {
   opacity: 1;
@@ -1500,14 +1467,6 @@ legend {
 option { 
 
 }
-
-/*.label {
-  background-image: url("../images/checkbox-sprites.png") -54px -10px;
-  background-size: auto 100%;
-  width: 20px;
-  height: 20px;
-  background-repeat: no-repeat;
-}*/
 
 .filter-title {
   font-size: 14px;
@@ -1569,7 +1528,6 @@ footer {
   margin-bottom: 5px;
   margin-right: 11px;
   box-sizing: content-box;
-  /*display: flex;*/
 }
 
 .social-button a {
