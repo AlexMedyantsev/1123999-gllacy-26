@@ -1462,7 +1462,7 @@ main {
 
 }*/
 
-.fat-check:hover + label::before
+.fat-check:hover + label::before,
 .type-check:hover + label::before {
   opacity: 1;
 }
