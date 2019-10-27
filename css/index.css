@@ -57,6 +57,7 @@ a:visited {
 }
 
 .footer-links a:hover,
+.sub-navigation a:hover,
 .copyright-text a:hover {
   color: #ffbc9e;
   cursor: pointer;
