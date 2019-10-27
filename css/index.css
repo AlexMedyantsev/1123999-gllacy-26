@@ -1403,14 +1403,58 @@ main {
 
 .filter-wrapper {
   display: flex;
-  align-items: center;
   width: 703px;
   height: 37px;
-  padding-left: 14px;
   border-radius: 17px;
   background: rgba(255, 255, 255, 0.2);
+  font-weight: 500;
 }
 
+.container {
+  position: relative;
+    display: inline-block;
+    margin-top: 8px;
+    margin-right: 9px;
+    margin-left: 25px;
+    /*vertical-align: middle;*/
+}
+
+.filter-wrapper input {
+  margin-right: 8px;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.filter-wrapper label {
+  font-size: 16px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.filter-wrapper label::before {
+  position: absolute;
+  left: -8px;
+  width: 20px;
+  height: 20px;
+  content: '';
+  background: url("../images/checkbox-off.svg");
+}
+
+/*.filter-wrapper label::after {
+
+}*/
+
+.fat-check:checked ~ label::before {
+  position: absolute;
+  left: -8px;
+  width: 24px;
+  height: 20px;
+  content: '';
+  background: url("../images/checkbox-on.svg");
+}
 
 fieldset {
   border: 0;
