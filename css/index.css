@@ -679,19 +679,30 @@ main {
   margin-bottom: 6px;
 }
 
+.sub-navigation a {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.14;
+  border-bottom: 1px solid rgba(255,255,255, 0.2);
+}
+
+.sub-on-page a{
+  border-bottom: none;
+}
+
 .sub-navigation li {
   position: relative;
 }
 
 .sub-navigation li:not(.sub-on-page) {
-  margin-right: 17px;
+  margin-right: 22px;
 }
 
 .sub-navigation li:not(.sub-on-page)::after {
   content: "»";
   position: absolute;
   top: 0px;
-  left: 57px;
+  left: 60px;
 }
 
 .main-title {
@@ -1001,12 +1012,6 @@ main {
   position: relative;
 }
 
-.sub-navigation a {
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.14;
-}
-
 .wrap {
   margin-top: 17px;
 }
@@ -1301,7 +1306,7 @@ main {
   margin-top: 6px;
   margin-bottom: 18px;
   width: 195px;
-  height: 40px;
+  height: 37px;
   background: rgba(255, 255, 255, 0.2);
   color: #ffffff;
   font-weight: 500;
