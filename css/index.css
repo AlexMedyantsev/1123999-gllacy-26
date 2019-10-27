@@ -1714,8 +1714,8 @@ input[type="text"],
 input[type="password"] {
   color: #999999;
   font-family: Roboto;
-  font-size: 14px;
-  font-weight: normal;
+  font-size: 16px;
+  font-weight: bold;
   line-height: 1.71;
 }
 
@@ -1729,6 +1729,11 @@ input[type="text"]:focus,
 input[type="password"]:focus {
   border: solid 2px rgba(46, 136, 228, 0.52);
   color: #323232;
+  padding-left: 14px;
+}
+
+input::placeholder {
+  font-weight: 400;
 }
 
 input:focus::placeholder,
