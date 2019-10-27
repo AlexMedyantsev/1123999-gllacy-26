@@ -118,33 +118,41 @@
           <fieldset class="filter-fat">
             <legend class="fat-title filter-title">Жирность:</legend>
             <div class="fat-wrapper">
-              <input type="radio" id="fat-0" name="fat" value="0">
-              <label for="fat-0">0%</label>
-              <input type="radio" id="fat-<10" name="fat" value="0" checked>
-              <label for="fat-<10">до 10%</label>
-              <input type="radio" id="fat-<30" name="fat" value="0">
-              <label for="fat-<30">до 30%</label>
-              <input type="radio" id="fat->30" name="fat" value="0">
-              <label for="fat->30">выше 30%</label>
+              <div class="container">
+                <input class="fat-check" type="radio" id="fat-0" name="fat" value="0">
+                <label class="fat-check" for="fat-0">0%</label>
+              </div>
+              <div class="container">
+                <input class="fat-check" type="radio" id="fat-<10" name="fat" value="0" checked>
+                <label for="fat-<10">до 10%</label>
+              </div>
+              <div class="container">
+                <input class="fat-check" type="radio" id="fat-<30" name="fat" value="0">
+                <label for="fat-<30">до 30%</label>
+              </div>
+              <div class="container">              
+                <input class="fat-check" type="radio" id="fat->30" name="fat" value="0">
+                <label for="fat->30">выше 30%</label>
+              </div>
             </div>
           </fieldset>
           <fieldset class="filter-filler">
             <legend class="filler-title filter-title">Наполнители:</legend>
             <div class="filter-wrapper">
               <div class="container">
-                <input class="fat-check" type="checkbox" id="chocolate" name="filler" value="шоколадные" checked>
+                <input class="type-check" type="checkbox" id="chocolate" name="filler" value="шоколадные" checked>
                 <label for="chocolate" class="label">шоколадные</label>
               </div>
               <div class="container">
-                <input class="fat-check" type="checkbox" id="sugar" name="filler" value="cахарные присыпки" checked>
+                <input class="type-check" type="checkbox" id="sugar" name="filler" value="cахарные присыпки" checked>
                 <label for="sugar">сахарные присыпки</label>
               </div>
               <div class="container">
-                <input class="fat-check" type="checkbox" id="fruits" name="filler" value="фрукты">
+                <input class="type-check" type="checkbox" id="fruits" name="filler" value="фрукты">
                 <label for="fruits">фрукты</label> 
               </div>
               <div class="container">
-                <input class="fat-check" type="checkbox" id="syrup" name="filler" value="сиропы">
+                <input class="type-check" type="checkbox" id="syrup" name="filler" value="сиропы">
                 <label for="syrup">сиропы</label>
               </div>
               <div class="container">

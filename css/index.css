@@ -1331,9 +1331,6 @@ main {
   margin-left: 29px;
 }
 
-.slider-wrapper {
-}
-
 .filter-slider {
   width: 220px;
   height: 37px;
@@ -1369,6 +1366,7 @@ main {
   position: absolute;
   background: url("../images/filter-button.svg");
   z-index: 10;
+  cursor: pointer;
 }
 
 .slider-left {
@@ -1387,12 +1385,12 @@ main {
 
 .fat-wrapper {
   display: flex;
-  align-items: center;
   width: 415px;
   height: 37px;
-  padding-left: 14px;
+  padding-left: 17px;
   margin-top: 6px;
   margin-left: 14px;
+  font-weight: 500;
   border-radius: 17px;
   background: rgba(255, 255, 255, 0.2);
 }
@@ -1411,14 +1409,15 @@ main {
 }
 
 .container {
-  position: relative;
-    display: inline-block;
+    position: relative;
+    display: flex;
     margin-top: 8px;
     margin-right: 9px;
     margin-left: 25px;
     /*vertical-align: middle;*/
 }
 
+.fat-wrapper input,
 .filter-wrapper input {
   margin-right: 8px;
   position: absolute;
@@ -1428,10 +1427,25 @@ main {
   width: 0;
 }
 
+.fat-wrapper label {
+  cursor: pointer; 
+  margin-right: 14px;
+}
+
 .filter-wrapper label {
   font-size: 16px;
   padding-left: 20px;
   cursor: pointer;
+}
+
+.fat-wrapper label::before {
+  position: absolute;
+  left: -28px;
+  width: 22px;
+  height: 22px;
+  content: '';
+  opacity: 0.8;
+  background: url("../images/radio-off.svg");
 }
 
 .filter-wrapper label::before {
@@ -1440,6 +1454,7 @@ main {
   width: 20px;
   height: 20px;
   content: '';
+  opacity: 0.8;
   background: url("../images/checkbox-off.svg");
 }
 
@@ -1447,12 +1462,20 @@ main {
 
 }*/
 
-.fat-check:checked ~ label::before {
-  position: absolute;
-  left: -8px;
+.fat-check:hover + label::before
+.type-check:hover + label::before {
+  opacity: 1;
+}
+
+.fat-check:checked + label::before {
+  background: url("../images/radio-on.svg");
+  opacity: 1;
+}
+
+.type-check:checked + label::before {
   width: 24px;
   height: 20px;
-  content: '';
+  opacity: 1;
   background: url("../images/checkbox-on.svg");
 }
 
