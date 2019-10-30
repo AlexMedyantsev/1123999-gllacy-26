@@ -110,12 +110,15 @@ header {
   padding-right: 27px;
   padding-left: 27px;
   margin: 0 auto;
+  /*outline: 1px solid red;*/
 }
 
 .header-nav-logo-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  /*outline: 1px solid blue;*/
+
 }
 
 .header-logo {
@@ -273,8 +276,12 @@ header {
   display: -ms-flexbox;
   display: flex;
   margin-top: 22px;
+  /*outline: 1px solid blue;*/
 }
 
+_:-ms-fullscreen, :root .header-buttons-container {
+  margin-left: 400px;
+}
 .header-buttons-search {
   width: 33px;
   height: 33px;
@@ -1108,6 +1115,13 @@ main {
 
 .wrap {
   margin-top: 17px;
+  text-align: center;
+}
+
+.item-card button {
+  display: block;
+  margin-top: 11px;
+  margin-left: 46px;
 }
 
 .catalog-item-name {
