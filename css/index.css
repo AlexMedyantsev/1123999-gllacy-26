@@ -940,6 +940,7 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: space-between;
   margin-bottom: 41px;
 }
 
@@ -953,6 +954,8 @@ main {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-bottom: 41px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .catalog-row {
@@ -1466,6 +1469,9 @@ main {
    background-image: url("../images/select-arrow-black.svg");
 }
 
+.sort-by input {
+  display: none;
+}
 .slider-title {
   margin-left: 29px;
 }
@@ -1773,11 +1779,14 @@ footer {
   margin-right: 32px;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-left: 0px;
 }
 
 .second-column {
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-left: 0px;
+  
 } 
 
 .footer-links-list .heart-link {
