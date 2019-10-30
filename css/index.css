@@ -110,15 +110,12 @@ header {
   padding-right: 27px;
   padding-left: 27px;
   margin: 0 auto;
-  /*outline: 1px solid red;*/
 }
 
 .header-nav-logo-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /*outline: 1px solid blue;*/
-
 }
 
 .header-logo {
@@ -942,6 +939,7 @@ main {
   display: flex;
   justify-content: space-between;
   margin-bottom: 41px;
+  outline: 1px solid green;
 }
 
 .catalog-items-list {
@@ -955,7 +953,6 @@ main {
           flex-direction: column;
   margin-bottom: 41px;
   padding-left: 0px;
-  padding-right: 0px;
 }
 
 .catalog-row {
@@ -964,12 +961,11 @@ main {
   display: -ms-flexbox;
   display: flex;
   margin-top: 40px;
-
 }
 
 .hit-item-container,
 .catalog-item {
-  width: 100%;
+  width: 267px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -978,10 +974,12 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  text-align: center;
   margin-right: 26px;
   z-index: 5;
+}
 
+.most-right {
+  margin-right: 0px;
 }
 
 .item-card {
@@ -1703,7 +1701,6 @@ footer {
   margin: 0 auto;
   padding-left: 26px;
   padding-right: 26px;
-  outline: 1px solid red;r
 }
 
 .catalog-footer {
@@ -1786,7 +1783,7 @@ footer {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 0px;
-  
+
 } 
 
 .footer-links-list .heart-link {
