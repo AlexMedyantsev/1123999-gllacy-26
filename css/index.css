@@ -1058,6 +1058,7 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 10px;
+  padding-left: 0px;
 }
 
 .about-list li:nth-of-type(1) p,
@@ -1294,7 +1295,7 @@ main {
 
 .map-address-large {
   display: block;
-  width: 221px;
+  width: 222px;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.33;
@@ -1707,6 +1708,7 @@ footer {
   display: -ms-flexbox;
   display: flex;
   margin-top: 36px;
+  padding-left: 0;
 }
 
 .social-button {
@@ -1726,7 +1728,7 @@ footer {
 }
 
 .twitter a {
-  background: url(../images/twitter.svg) no-repeat;
+  background: url(../images/twitter.svg) no-repeat 50% 50%;
 }
 
 .instagram a {
