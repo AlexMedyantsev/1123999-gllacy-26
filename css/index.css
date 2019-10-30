@@ -746,6 +746,7 @@ main {
   display: flex;
   margin-top: 28px;
   margin-bottom: 6px;
+  padding-left: 0px;
 }
 
 .sub-navigation a {
@@ -757,6 +758,9 @@ main {
 
 .sub-on-page a{
   border-bottom: none;
+}
+.sub-on-page a:hover {
+  color: white;
 }
 
 .sub-navigation li {
