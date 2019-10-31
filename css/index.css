@@ -78,6 +78,11 @@ a:visited {
   cursor: pointer;
 }
 
+/*img {
+  width: 100%;
+  height: auto;
+}*/
+
 select::-ms-expand {
     display: none;
 }
@@ -185,7 +190,7 @@ header {
   top: 37px;
   left: 0px;
   margin-left: -6px;
-  width: 143px;
+  min-width: 143px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -268,20 +273,20 @@ header {
   display: -ms-flexbox;
   display: flex;
   margin-top: 22px;
-  /*outline: 1px solid blue;*/
 }
 
 _:-ms-fullscreen, :root .header-buttons-container {
   margin-left: 400px;
 }
+
 .header-buttons-search {
+  position: relative;
   width: 33px;
   height: 33px;
   border-radius: 50%;
   border: 0;
   background: url('../images/loupe.svg') no-repeat 50% 50%;
   background-color: rgba(255, 255, 255, 0.2);
-  position: relative;
 }
 
 .header-buttons-search:hover {
@@ -289,7 +294,7 @@ _:-ms-fullscreen, :root .header-buttons-container {
   cursor: pointer;
 }
 
-.header-buttons-search:hover~.search-field-container {
+.header-buttons-search:hover ~ .search-field-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -375,7 +380,7 @@ _:-ms-fullscreen, :root .header-buttons-container {
   background-color: #f8f7f4;
 }
 
-.header-buttons-login:hover+.login-form {
+.header-buttons-login:hover + .login-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -457,16 +462,22 @@ _:-ms-fullscreen, :root .header-buttons-container {
   margin-left: 20px;
 }
 
+.cart-wrap {
+  display: flex;
+  margin-top: 0px;
+  width: auto;
+  height: auto;
+}
 
 .header-buttons-login:hover>span {
   color: #323232;
 }
 
-.header-buttons-login:hover>span::before {
+.header-buttons-login:hover > span::before {
   background: url("../images/entrance-dark.svg")
 }
 
-.header-buttons-login>span {
+.header-buttons-login > span {
   margin: 6px 17px 7px 16px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -489,15 +500,14 @@ _:-ms-fullscreen, :root .header-buttons-container {
 .header-buttons-cart,
 .cart-with-items {
   min-width: 100;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  /*display: -webkit-box;
+  display: -ms-flexbox;*/
+  /*display: flex;*/
   height: 32px;
   font-family: "Roboto";
   border: 0;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.2);
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -513,8 +523,8 @@ _:-ms-fullscreen, :root .header-buttons-container {
   cursor: pointer;
 }
 
-.header-buttons-cart:hover>span,
-.cart-with-items:hover>span {
+.header-buttons-cart:hover > span,
+.cart-with-items:hover > span {
   color: #323232;
 }
 
@@ -586,14 +596,17 @@ table {
   vertical-align: middle;
 }
 
+.remove-cart-item {
+  background: transparent;
+}
 .header-cart-pop-up button{
   border: 0;
   margin-left: 16px;
   margin-right: 14px;
 }
 
-.header-buttons-cart>span,
-.cart-with-items>span {
+.header-buttons-cart > span,
+.cart-with-items > span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -607,7 +620,7 @@ table {
   margin-left: 16px;
 }
 
-.header-buttons-cart>span::before {
+.header-buttons-cart > span::before {
   content: "";
   background: url("../images/basket.svg") no-repeat;
   width: 21px;
@@ -620,7 +633,7 @@ table {
   margin-bottom: 10px;
 }
 
-.cart-with-items>span::before {
+.cart-with-items > span::before {
   content: "";
   background: url("../images/basket-red.svg") no-repeat;
   width: 21px;
@@ -974,9 +987,11 @@ main {
           flex-direction: column;
   margin-right: 26px;
   z-index: 5;
+  outline: 1px solid red;
 }
 
-.most-right {
+.catalog-item:nth-child(4n),
+.hit-item-container {
   margin-right: 0px;
 }
 
@@ -1077,7 +1092,7 @@ main {
   margin-right: 20px;
 }
 
-.about-list li p {
+.about-list  p {
   margin-top: 11px;
 }
 
@@ -1730,6 +1745,12 @@ footer {
 }
 
 .social-button {
+  position: relative;
+  top: 3px;
+  right: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 5px;
   margin-right: 11px;
   -webkit-box-sizing: content-box;
