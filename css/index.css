@@ -78,13 +78,8 @@ a:visited {
   cursor: pointer;
 }
 
-li {
-  list-style: none;
-}
-
-ul {
-  -webkit-padding-start: 0px;
-          padding-inline-start: 0px;
+select::-ms-expand {
+    display: none;
 }
 
 .site-wrapper {
@@ -943,7 +938,6 @@ main {
   display: flex;
   justify-content: space-between;
   margin-bottom: 41px;
-  outline: 1px solid green;
 }
 
 .catalog-items-list {

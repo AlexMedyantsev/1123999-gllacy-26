@@ -169,6 +169,7 @@ li {
 }
 
 ul {
+  -webkit-padding-start: 0px;
   padding-inline-start: 0px;
   margin-block-start: 0px;
   margin-block-end: 0px;
