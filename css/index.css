@@ -987,7 +987,6 @@ main {
           flex-direction: column;
   margin-right: 26px;
   z-index: 5;
-  outline: 1px solid red;
 }
 
 .catalog-item:nth-child(4n),
