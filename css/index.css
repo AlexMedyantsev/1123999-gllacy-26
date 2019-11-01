@@ -367,11 +367,11 @@ _:-ms-fullscreen, :root .header-buttons-container {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 15px;
   padding-right: 17px;
-  padding-left: 16px;
+  padding-left: 44px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+/*  justify-content: center;*/
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -382,19 +382,23 @@ _:-ms-fullscreen, :root .header-buttons-container {
   color: #323232;
 }
 
-.header-buttons-login:hover > .image {
+.header-buttons-login:hover span::before {
   background: url("../images/entrance-dark.svg")
 }
 
 .header-buttons-login > span {
   display: block;
-  margin-left: 7px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  white-space: nowrap;
 }
 
-.header-buttons-login .image {
+.header-buttons-login span::before {
+  position: absolute;
+  content: "";
+  top: 6px;
+  left: 16px;
   background: url("../images/entrance.svg") no-repeat;
   width: 21px;
   height: 19px;
@@ -488,6 +492,7 @@ _:-ms-fullscreen, :root .header-buttons-container {
 
 .header-buttons-cart,
 .cart-with-items {
+  position: relative;
   min-width: 100px;
   padding: 0px;
   display: -webkit-box;
@@ -507,7 +512,7 @@ _:-ms-fullscreen, :root .header-buttons-container {
           justify-content: center;
   margin-left: 9px;
   padding-right: 17px;
-  padding-left: 16px;
+  padding-left: 45px;
 }
 
 .cart-with-items {
@@ -515,17 +520,15 @@ _:-ms-fullscreen, :root .header-buttons-container {
   background-color: #f8f7f4;
 }
 
-_:-ms-fullscreen, :root .cart-with-items {
+/*_:-ms-fullscreen, :root .cart-with-items {
   padding-right: 17px;
   padding-left: 16px;
   min-width: 120px;
-}
+}*/
 
 .header-buttons-cart span,
 .cart-with-items span {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: block;
+/*  display: block;*/
   color: white;
   font-weight: 500;
   font-size: 14px;
@@ -534,9 +537,14 @@ _:-ms-fullscreen, :root .cart-with-items {
 
 .cart-with-items span {
   color: #323232;
+  white-space: nowrap;
 }
 
-.header-buttons-cart .image1 {
+.header-buttons-cart span::before {
+  position: absolute;
+  top: 7px;
+  left: 16px;
+  content: "";
   background: url("../images/basket.svg") no-repeat;
   width: 21px;
   height: 20px;
@@ -544,14 +552,17 @@ _:-ms-fullscreen, :root .cart-with-items {
   margin-right: 8px;
 }
 
-.cart-with-items .image1 {
+.cart-with-items span::before {
+  position: absolute;
+  content: "";
+  top: 7px;
+  left: 16px;
   background: url("../images/basket-red.svg") no-repeat;
   width: 21px;
   height: 20px;
   display: flex;
   margin-right: 8px;
   padding: 0px;
-  z-index: 10
 }
 
 .header-buttons-cart:hover,
@@ -565,11 +576,11 @@ _:-ms-fullscreen, :root .cart-with-items {
   color: #323232;
 }
 
-.header-buttons-cart:hover .image1 {
+.header-buttons-cart:hover span::before {
   background: url("../images/basket-dark.svg");
 }
 
-.cart-with-items:hover > .image1 {
+.cart-with-items:hover > span::before {
   background: url("../images/basket-red.svg");
 }
 
