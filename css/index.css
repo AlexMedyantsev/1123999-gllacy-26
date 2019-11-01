@@ -53,6 +53,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+          border: 1px solid red;
 }
 
 a {
@@ -1846,13 +1847,18 @@ footer {
 }
 
 .reply-back {
+  position: fixed;
+  left: 50%;
+  top: 337px;
+  margin-left: -239px;
   display: block;
   width: 478px;
   padding: 24px 20px 25px 27px;
   border-radius: 10px;
   background-color: #f8f7f4;
-  margin: 0 auto;
+  z-index: 100;
 }
+
  .reply-back span {
   display: block;
   font-size: 24px;
