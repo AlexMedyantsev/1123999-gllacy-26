@@ -360,20 +360,55 @@ _:-ms-fullscreen, :root .header-buttons-container {
 }
 
 .header-buttons-login {
+  position: relative;
+  min-width: 93px;
+  width: auto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  width: auto;
   height: 32px;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 15px;
+  padding-right: 17px;
+  padding-left: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin-left: 10px;
+  outline: 1px solid red;
+}
+
+.header-buttons-login:hover>span {
+  color: #323232;
+}
+
+.header-buttons-login:hover > .image {
+  background: url("../images/entrance-dark.svg")
+}
+
+.header-buttons-login > span {
+  /*margin: 6px 17px 7px 16px;*/
+  display: block;
+  margin-left: 7px;
+/*  position: absolute;
+  top: 9px;
+  right: 17px;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-buttons-login .image {
+  background: url("../images/entrance.svg") no-repeat;
+  width: 21px;
+  height: 19px;
+  /*margin-top: -2px;
+  margin-right: 7px;
+  margin-bottom: -7px;*/
 }
 
 .header-buttons-login:hover {
@@ -468,34 +503,6 @@ _:-ms-fullscreen, :root .header-buttons-container {
   width: auto;
   height: auto;
 }
-
-.header-buttons-login:hover>span {
-  color: #323232;
-}
-
-.header-buttons-login:hover > span::before {
-  background: url("../images/entrance-dark.svg")
-}
-
-.header-buttons-login > span {
-  margin: 6px 17px 7px 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.header-buttons-login>span::before {
-  content: "";
-  background: url("../images/entrance.svg") no-repeat;
-  width: 21px;
-  height: 19px;
-  top: 0px;
-  right: 40px;
-  margin-top: -2px;
-  margin-right: 7px;
-  margin-bottom: -7px;
-}
-
 
 .header-buttons-cart,
 .cart-with-items {
