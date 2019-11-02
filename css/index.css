@@ -818,7 +818,7 @@ main {
   text-align: center;
 }
 
-.main-banner button {
+.main-banner .button {
   display: table;
   font-size: 32px;
   line-height: 1.38;
