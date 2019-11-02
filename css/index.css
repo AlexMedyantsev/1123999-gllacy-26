@@ -35,7 +35,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 16px;
   line-height: 22px;
   font-weight: bold;
@@ -499,7 +499,7 @@ _:-ms-fullscreen, :root .header-buttons-container {
   display: flex;
   align-items: center;
   height: 32px;
-  font-family: "Roboto";
+  font-family: 'Roboto', 'Arial', sans-serif;
   border: 0;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.2);
@@ -1125,6 +1125,8 @@ main {
   width: 49px;
   height: 49px;
 }
+
+<a class="button quick-preview" aria-label="Быстрый просмотр">Быстрый просмотр</a>
 
 .about-technology::before {
   background: url("../images/ice-cream.svg") no-repeat;
@@ -1956,7 +1958,7 @@ input {
 input[type="text"],
 input[type="password"] {
   color: #999999;
-  font-family: Roboto;
+  font-family: 'Roboto' , 'Arial', sans-serif;
   font-size: 16px;
   font-weight: bold;
   line-height: 1.71;
@@ -2019,6 +2021,7 @@ input:focus::placeholder,
 textarea:focus::placeholder {
   color: transparent;
 }
+
 .button {
   border: 0;
   color: #fefefe;
@@ -2029,7 +2032,7 @@ textarea:focus::placeholder {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#e74a35), to(#f26843));
   background-image: linear-gradient(to top, #e74a35, #f26843);
   text-shadow: 0px 2px 5px rgba(160, 32, 11, 0.76);
-  font-family: "Roboto";
+  font-family: "Roboto", 'Arial', sans-serif;
   font-weight: bold;
   cursor: pointer;
 }
