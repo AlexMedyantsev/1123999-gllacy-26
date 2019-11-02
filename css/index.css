@@ -819,19 +819,19 @@ main {
 }
 
 .main-banner button {
+  display: table;
   font-size: 32px;
   line-height: 1.38;
   text-shadow: 0px 2px 5px rgba(160, 32, 11, 0.76);
   font-weight: bold;
+  padding-top: 9px;
   padding-right: 43px;
   padding-left: 41px;
+  min-width: 280px;
   height: 64px;
   border-radius: 35px;
-  display: block;
+  margin: 0 auto;
   margin-top: 26px;
-  margin-bottom: 41px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .main-banner-image {
@@ -875,6 +875,7 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -883,6 +884,7 @@ main {
 .offer {
   width: 560px;
   border-radius: 15px;
+  margin-top: 40px;
   padding-top: 23px;
   padding-bottom: 23px;
   padding-left: 20px;
@@ -1060,8 +1062,7 @@ main {
   background: url(../images/waffle4x4.jpg);
   background-color: #ebddbf ;
   width: 1146px;
-  margin-bottom: 40px;
-  padding-top: 29px;
+r  padding-top: 29px;
   padding-bottom: 26px;
   padding-left: 20px;
   border-radius: 15px;
@@ -1199,6 +1200,7 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .blog {
@@ -1208,6 +1210,7 @@ main {
   padding-top: 26px;
   padding-left: 20px;
   border-radius: 15px;
+  margin-top: 40px;
   margin-right: 26px;
   display: block;
 }
@@ -1243,6 +1246,7 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 40px;
   padding: 4px 5px 5px 6px;
 
 }
