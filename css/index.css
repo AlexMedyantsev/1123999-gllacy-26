@@ -548,6 +548,8 @@ _:-ms-fullscreen, :root .header-buttons-container {
   background: url("../images/basket.svg") no-repeat;
   width: 21px;
   height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-right: 8px;
 }
@@ -560,6 +562,8 @@ _:-ms-fullscreen, :root .header-buttons-container {
   background: url("../images/basket-red.svg") no-repeat;
   width: 21px;
   height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-right: 8px;
   padding: 0px;
@@ -955,8 +959,11 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 41px;
 }
 
@@ -965,8 +972,12 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin-bottom: 41px;
   padding-left: 0px;
 }
@@ -1752,9 +1763,15 @@ footer {
   position: relative;
   top: 3px;
   right: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 5px;
   margin-right: 11px;
   -webkit-box-sizing: content-box;
@@ -1999,8 +2016,8 @@ textarea:focus::placeholder {
   text-shadow: 0px 2px 5px rgba(160, 32, 11, 0.76);
   -webkit-box-shadow: 0px 2px 2px 0 rgba(172, 16, 0, 0.64);
           box-shadow: 0px 2px 2px 0 rgba(172, 16, 0, 0.64);
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e74a35), to(#f26843));
   background-image: -o-linear-gradient(bottom, #e74a35, #f26843);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#e74a35), to(#f26843));
   background-image: linear-gradient(to top, #e74a35, #f26843);
   text-shadow: 0px 2px 5px rgba(160, 32, 11, 0.76);
   font-family: "Roboto";
@@ -2013,8 +2030,8 @@ textarea:focus::placeholder {
   text-shadow: 0px 2px 5px rgba(160, 32, 11, 0.76);
   -webkit-box-shadow: 0px 2px 2px 0 #ac1000;
           box-shadow: 0px 2px 2px 0 #ac1000;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2))), -webkit-gradient(linear, left bottom, left top, from(#e74a35), to(#f26843));
   background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), -o-linear-gradient(bottom, #e74a35, #f26843);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2))), -webkit-gradient(linear, left bottom, left top, from(#e74a35), to(#f26843));
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), linear-gradient(to top, #e74a35, #f26843);
 }
 
@@ -2023,7 +2040,7 @@ textarea:focus::placeholder {
   text-shadow: 0px 2px 5px rgba(160, 32, 11, 0.76);
   -webkit-box-shadow: inset 0px 2px 2px 0 #942718;
           box-shadow: inset 0px 2px 2px 0 #942718;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.07)), to(rgba(0, 0, 0, 0.07))), -webkit-gradient(linear, left top, left bottom, from(#e74a35), to(#f26843));
   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07)), -o-linear-gradient(top, #e74a35, #f26843);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.07)), to(rgba(0, 0, 0, 0.07))), -webkit-gradient(linear, left top, left bottom, from(#e74a35), to(#f26843));
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07)), linear-gradient(to bottom, #e74a35, #f26843);
 }
