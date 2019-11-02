@@ -1023,7 +1023,7 @@ main {
 }
 
 .catalog-item:hover button,
-.hit-item-container:hover button {
+.hit-item-container:hover a {
   display: block;
   position: absolute;
   top: 333px;
@@ -1062,7 +1062,7 @@ main {
   background: url(../images/waffle4x4.jpg);
   background-color: #ebddbf ;
   width: 1146px;
-r  padding-top: 29px;
+  padding-top: 29px;
   padding-bottom: 26px;
   padding-left: 20px;
   border-radius: 15px;
