@@ -1015,23 +1015,28 @@ main {
   display: none;
 }
 
-.catalog-item button,
-.hit-item-container button {
+.catalog-item .quick-preview,
+.hit-item-container .quick-preview {
   display: none;
   font-size: 18px;
   line-height: 1.33;
+  white-space: nowrap;
 }
 
-.catalog-item:hover button,
-.hit-item-container:hover a {
+.catalog-item:hover .quick-preview,
+.hit-item-container:hover .quick-preview {
   display: block;
   position: absolute;
   top: 333px;
   width: 200px;
   height: 44px;
+  padding-top: 11px;
+  padding-right: 17px;
+  padding-left: 17px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  text-align: center;
   border-radius: 22px;
 }
 
@@ -1148,7 +1153,7 @@ main {
   text-align: center;
 }
 
-.item-card button {
+.item-card .quick-preview {
   display: block;
   margin-top: 11px;
   margin-left: 46px;
