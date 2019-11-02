@@ -53,7 +53,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-          border: 1px solid red;
 }
 
 a {
@@ -310,7 +309,7 @@ _:-ms-fullscreen, :root .header-buttons-container {
 .search-field-container {
   position: absolute;
   top: 59px;
-  right: 247px;
+  right: 238px;
 
   width: 341px;
   height: 84px;
@@ -422,7 +421,7 @@ _:-ms-fullscreen, :root .header-buttons-container {
       flex-wrap: wrap;
   position: absolute;
   top: 59px;
-  right: 141px;
+  right: 134px;
   z-index: 5;
   width: 277px;
   height: 214px;
