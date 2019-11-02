@@ -1295,6 +1295,7 @@ main {
   height: 430px;
   border: 0;
   z-index: 10;
+  min-width: 1200px; 
 }
 
 .map-info-container {
