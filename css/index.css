@@ -120,6 +120,7 @@ header {
 
 .header-logo {
   margin-top: 9px;
+  margin-left: -1px;
   display: block;
   cursor: pointer;
 }
@@ -133,7 +134,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   margin: 0;
-  margin-top: 23px;
+  margin-top: 22px;
   padding-left: 0;
 }
 
@@ -885,8 +886,8 @@ main {
   width: 560px;
   border-radius: 15px;
   margin-top: 40px;
-  padding-top: 23px;
-  padding-bottom: 23px;
+  padding-top: 15px;
+  padding-bottom: 20px;
   padding-left: 20px;
   border-radius: 15px;
 }
@@ -915,8 +916,9 @@ main {
 .offer p {
   font-size: 18px;
   line-height: 1.22;
-  margin-top: 20px;
+  margin-top: 17px;
   margin-bottom: 45px;
+  width: 515px;
 }
 
 .wrapper {
@@ -965,7 +967,7 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 41px;
+  margin-bottom: 40px;
 }
 
 .catalog-items-list {
@@ -979,7 +981,7 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-bottom: 41px;
+  margin-bottom: 40px;
   padding-left: 0px;
 }
 
@@ -999,7 +1001,7 @@ main {
 }
 
 .hit-item-container {
-  margin-top: 40px;
+  margin-top: 39px;
 }
 
 .catalog-item {
@@ -1067,8 +1069,8 @@ main {
   background: url(../images/waffle4x4.jpg);
   background-color: #ebddbf ;
   width: 1146px;
-  padding-top: 29px;
-  padding-bottom: 26px;
+  padding-top: 22px;
+  padding-bottom: 30px;
   padding-left: 20px;
   border-radius: 15px;
 }
@@ -1102,14 +1104,14 @@ main {
 
 .about-list li:nth-of-type(1n + 1) {
   padding-left: 57px;
-  margin-right: 33px;
+  margin-right: 32px;
   width: 535px;
 }
 
 .about-list li:nth-of-type(2n) {
   padding-left: 57px;
   width: 527px;
-  margin-right: 20px;
+  margin-right: 31px;
 }
 
 .about-list li{
@@ -1125,8 +1127,6 @@ main {
   width: 49px;
   height: 49px;
 }
-
-<a class="button quick-preview" aria-label="Быстрый просмотр">Быстрый просмотр</a>
 
 .about-technology::before {
   background: url("../images/ice-cream.svg") no-repeat;
@@ -1151,7 +1151,7 @@ main {
 }
 
 .wrap {
-  margin-top: 17px;
+  margin-top: 14px;
   text-align: center;
 }
 
@@ -1214,7 +1214,8 @@ main {
   background: white url('../images/strawberry_bg.jpg') no-repeat 40%;
   background-size: cover;
   width: 560px;
-  padding-top: 26px;
+  min-height: 220px;
+  padding-top: 20px;
   padding-left: 20px;
   border-radius: 15px;
   margin-top: 40px;
@@ -1226,6 +1227,7 @@ main {
   font-weight: 500;
   line-height: 1.38;
   color: #323232;
+  margin: 0;
 }
 
 .blog-link {
@@ -1235,8 +1237,7 @@ main {
   text-decoration: underline;
   display: block;
   width: 281px;
-  margin-top: 13px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 .mail-stripes-container {
