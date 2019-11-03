@@ -1126,8 +1126,6 @@ main {
   height: 49px;
 }
 
-<a class="button quick-preview" aria-label="Быстрый просмотр">Быстрый просмотр</a>
-
 .about-technology::before {
   background: url("../images/ice-cream.svg") no-repeat;
 }
