@@ -1193,8 +1193,8 @@ main {
 
 .catalog-item-price {
   position: absolute;
-  left: 0px;
-  top: 214px;
+  left: -4px;
+  top: 210px;
   font-size: 45px;
   line-height: 1;
   text-shadow: 0.5px 0.9px 3px rgba(49, 50, 53, 0.5);
@@ -1226,11 +1226,11 @@ main {
 }
 
 .blog-header {
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.38;
   color: #323232;
   margin: 0;
-  margin-bottom: 2px;
 }
 
 .blog-link {
@@ -1240,6 +1240,7 @@ main {
   text-decoration: underline;
   display: block;
   width: 281px;
+  margin-top: 6px;
 }
 
 .mail-stripes-container {
@@ -1279,7 +1280,7 @@ main {
   width: 506px;
   display: block;
   /*padding-top: -2px*/
-  padding-bottom: 27px;
+  padding-bottom: 29px;
 }
 
 .subscribe-form input {
