@@ -1470,7 +1470,7 @@ main {
           justify-content: center;
 }
 
-.catalog-pages-list li .on-page {
+.catalog-pages-list .on-page {
   background-color: white;
   color: #323232;
 }
