@@ -379,7 +379,79 @@ textarea {
   overflow: auto;
 }
 
-/**
+input {
+  outline: none;
+}
+
+input[type="text"],
+input[type="password"] {
+  color: #999999;
+  font-family: 'Roboto' , 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.71;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+  border: solid 2px rgba(154, 154, 154, 0.52);
+  padding-left: 14px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border: solid 2px rgba(46, 136, 228, 0.52);
+  color: #323232;
+  padding-left: 14px;
+}
+
+input::-webkit-input-placeholder {
+  font-weight: 400;
+}
+
+input::-moz-placeholder {
+  font-weight: 400;
+}
+
+input:-ms-input-placeholder {
+  font-weight: 400;
+}
+
+input::-ms-input-placeholder {
+  font-weight: 400;
+}
+
+input::placeholder {
+  font-weight: 400;
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+
+input:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+input:focus::-ms-input-placeholder,
+textarea:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color: transparent;
+}
+
+
+/*
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
  */
